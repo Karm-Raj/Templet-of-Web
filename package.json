@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build":"npx @tailwindcss/cli -i ./src/input.css -o ./src/Style_out.css --watch"
+    "tailwind":"npx @tailwindcss/cli -i ./src/input.css -o ./src/style.css --watch",
+    "build":"npx @tailwindcss/cli -i ./src/input.css -o ./Fiweb/style-min.css --minify"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.0.5",
