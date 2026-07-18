@@ -7,7 +7,7 @@ git status
 ```
 git clone <repo url>
 ```
-3. Add for all just add a . at the end
+3. Add for all just add a .(dot) at the end
 ```
 git add <fileName> OR git add .
 ```
